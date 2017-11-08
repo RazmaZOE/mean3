@@ -1,0 +1,25 @@
+{
+  "name": "mean3",
+  "version": "1.0.0",
+  "description": "mean",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js" //Inicia con esto
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazmaZOE/mean3.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Ariel Lewkowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazmaZOE/mean3/issues"
+  },
+  "homepage": "https://github.com/RazmaZOE/mean3#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
