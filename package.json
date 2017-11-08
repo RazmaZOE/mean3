@@ -4,7 +4,7 @@
   "description": "mean",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js" //Inicia con esto
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/RazmaZOE/mean3#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongoose": "^4.13.0"
   }
 }
