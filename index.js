@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 var config = require("./config/database");
-var routes = require("./app/routes.js");
+var routes = require("./app/routes");
 var bodyParser = require("body-parser");
 var methodOverride = require('method-override');
 
@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride());
 routes(app);
-  
-app.listen(3000, function(){
+
+var server = app.listen(3000, function(){
     console.log("Conectado al puerto 3000");
 });

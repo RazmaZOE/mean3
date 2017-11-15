@@ -16,6 +16,7 @@ module.exports = function(app) {
 
     //Application
     app.get("*", function(req, res) {
+        console.log("Mando vista general *")
         res.sendFile("index.html", { root: "./angular/"}); //Carga única de la vista
     });
 };
